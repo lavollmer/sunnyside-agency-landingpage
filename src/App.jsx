@@ -5,7 +5,7 @@ import SplashPage from "./components/SplashPage"; // Import the SplashPage compo
 function App() {
   return (
     <>
-      <div>
+      <div className="top-0">
         <Navbar />
         <SplashPage />
       </div>

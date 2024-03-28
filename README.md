@@ -55,7 +55,8 @@ My process:
 5. Download all the images in the assets folder - separate icons, images for desktop and images for mobile in folders in assets.
 6. Plan build - look at designs given. Plan out reusable pieces of content.
 7. Wrote out all my components and named them. Created my App.js and imported all the components to make sure the page would run smoothly.
-8. Work on the Icon Sunnyside Logo component. The icon file I received wasn't working. I used snipping clipper to take an image of the design layout. Took the logo and ran it through a website to remove the background of the image. I got a usable image for the website.
+8. Work on the Icon Sunnyside Logo component. The icon file I received wasn't working. I used snipping clipper to take an image of the design layout. Took the logo and ran it through a website to remove the background of the image. I got a usable image for the website. Realized the logo icon did work - just wasn't showing up when using.
+9. Work on navigation bar. Start by working on useState hook for the mobile menu.
 
 ### Built with
 
@@ -73,6 +74,8 @@ My process:
 ### What I learned
 
 1. Setting up Tailwind CSS - the config file has updated terminology - purge is now content. Also app.css should have the tailwind CSS utilities.
+2. Work on the Icon Sunnyside Logo component. The icon file I received wasn't working. I used snipping clipper to take an image of the design layout. Took the logo and ran it through a website to remove the background of the image. I got a usable image for the website. Realized the logo icon did work - just wasn't showing up when using.
+3. Declare the useState in React. I need to declare the state variable and the function to update it inside an array. I forgot to add const to the beginning of my useState.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
