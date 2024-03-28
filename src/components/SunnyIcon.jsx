@@ -1,10 +1,10 @@
 import React from 'react'
-import Logo from '../assets/icons/sunnyicon-nobg.png'; 
+import Logo from '../assets/icons/logo.svg'; 
 
 const SunnyIcon = () => {
   return (
     <div>
-        <im src={Logo} alt="sunnyside icon logo"/>
+        <img src={Logo} alt="sunnyside icon logo" className='bg-[#3DBEFF]'/>
     </div>
   )
 }

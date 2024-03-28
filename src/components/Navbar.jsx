@@ -1,12 +1,15 @@
-import React from 'react'
-import SunnyIcon from './SunnyIcon'
+import React from "react";
+import SunnyIcon from "./SunnyIcon";
 
 const Navbar = () => {
   return (
-    <div>
-      <SunnyIcon />
+    <div className="bg-[#3DBEFF]">
+      <div>
+        <SunnyIcon />
+      </div>
+      <h1>Hello</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
