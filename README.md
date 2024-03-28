@@ -41,6 +41,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
+- Github Repo URL: [Github Repo URL](https://github.com/lavollmer/sunnyside-agency-landingpage)
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
@@ -50,6 +51,11 @@ My process:
 1.  Open the project and look through all the project images, fonts, and README. Determine best course of action.
 2. Create Github Repo and connect to localhost/terminal.
 3. Install ReactJS, TailwindCSS, Vite.
+4. Run on localhost to make sure it is functioning it. Clean up old code from React to get clean slate for building. 
+5. Download all the images in the assets folder - separate icons, images for desktop and images for mobile in folders in assets.
+6. Plan build - look at designs given. Plan out reusable pieces of content.
+7. Wrote out all my components and named them. Created my App.js and imported all the components to make sure the page would run smoothly.
+8. Work on the Icon Sunnyside Logo component. The icon file I received wasn't working. I used snipping clipper to take an image of the design layout. Took the logo and ran it through a website to remove the background of the image. I got a usable image for the website.
 
 ### Built with
 
@@ -96,7 +102,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Remove bg](https://www.remove.bg/) - This helped me to remove the background off a screenshot from the sunnyside icon. The file I got didn't have a sunny icon appear. I had to create my own with the design layout.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
