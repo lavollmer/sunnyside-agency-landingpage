@@ -3,6 +3,7 @@ import { useState } from "react";
 import SunnyIcon from "./SunnyIcon"; // Import the SunnyIcon component
 import Hamburger from "../assets/icons/icon-hamburger.svg"; // Import the Hamburger icon
 
+//declare functional component named Navbar
 const Navbar = () => {
   // State for the mobile menu - initializes isMenuOpen with a value of false
   const [isMenuOpen, setIsMenuOpen] = useState(false);
