@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="bg-[#3DBEFF]">
       {/* Sunnyside Icon component imported for Navigation bar */}
       <div>
-        <SunnyIcon />
+        <SunnyIcon size={60} />
       </div>
       <div>
         <button>
