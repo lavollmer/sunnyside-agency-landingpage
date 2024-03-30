@@ -1,6 +1,6 @@
 # Frontend Mentor - Sunnyside agency landing page solution
 
-Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+Frontend Mentor challenges help you improve your coding skills by building realistic projects. This project was to create a landing page for sunnyside agency. It was fun to work through the project.
 
 ## Table of contents
 
