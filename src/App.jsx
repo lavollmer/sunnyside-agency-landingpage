@@ -5,14 +5,10 @@ import SplashPage from "./components/SplashPage"; // Import the SplashPage compo
 function App() {
   return (
     <>
-      <Router>
-        <Switch>
-          <div className="top-0">
-            <Navbar />
-            <SplashPage />
-          </div>
-        </Switch>
-      </Router>
+      <div className="top-0">
+        <Navbar />
+        <SplashPage />
+      </div>
     </>
   );
 }
