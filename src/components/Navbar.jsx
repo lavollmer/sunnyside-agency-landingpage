@@ -3,6 +3,7 @@ import { useState } from "react";
 import SunnyIcon from "./SunnyIcon"; // Import the SunnyIcon component
 import Hamburger from "../assets/icons/icon-hamburger.svg"; // Import the Hamburger icon
 import Clicks from "./Clickables"; // Import the Clickables component
+import ContactButton from "./ContactButton";// Import the ContactButton component
 
 //declare functional component named Navbar
 const Navbar = () => {
@@ -22,6 +23,9 @@ const Navbar = () => {
         <button>
           <img src={Hamburger} alt="Hamburger icon for mobile menu" />
         </button>
+      </div>
+      <div>
+        <ContactButton />
       </div>
     </div>
   );
