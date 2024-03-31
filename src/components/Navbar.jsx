@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="bg-[#3DBEFF] p-5 flex justify-between items-center">
       {/* Sunnyside Icon component imported for Navigation bar */}
       <div>
-        <SunnyIcon size={60} />
+        <SunnyIcon size={80} />
       </div>
       <div className="hidden md:flex">
         <Clickables />
