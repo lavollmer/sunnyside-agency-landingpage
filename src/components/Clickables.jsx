@@ -6,6 +6,8 @@ const Clickables = () => {
     <div>
         <div className='text-white'>
             <Link to="/about">About</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/projects">Projects</Link>
         </div>
     </div>
   )
