@@ -4,7 +4,7 @@ const ContactButton = () => {
   return (
     <div>
         <button className='bg-white rounded-full '>
-            <p className='text-black font-bold text-xs'>CONTACT</p>
+            <p className='text-black font-fraunces font-900 text-sm'>CONTACT</p>
         </button>
     </div>
   )
