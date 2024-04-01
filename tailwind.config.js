@@ -16,6 +16,7 @@ module.exports = {
       },
       colors: {
         'underline-color': '#F8F1C8',
+        'underline-color2': '#F9E3DC', 
       },
       zIndex: {
         '-10': '-10',
