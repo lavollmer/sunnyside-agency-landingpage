@@ -12,6 +12,7 @@ import Cone from "../src/assets/images/desktop/image-gallery-cone.jpg"; // Impor
 import Milk from "../src/assets/images/desktop/image-gallery-milkbottles.jpg"; // Import the image-gallery-milkbottles.jpg file
 import Sugar from "../src/assets/images/desktop/image-gallery-sugarcubes.jpg"; // Import the image-gallery-sugar-cubes.jpg file
 import Orange from "../src/assets/images/desktop/image-gallery-orange.jpg"; // Import the image-gallery-orange.jpg file
+import Footer from "./components/Footer"; // Import the Footer component
 
 function App() {
   return (
@@ -59,6 +60,9 @@ function App() {
           <img src={Orange} alt="Orange in bowl" />
           <img src={Cone} alt="Ice Cream Cone" />
           <img src={Sugar} alt="Sugar Cubes" />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     </>
