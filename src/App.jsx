@@ -21,8 +21,8 @@ function App() {
       <SplashPage />
       <div>
         <div className="grid md:grid-cols-2 grid-cols-1">
-          <img src={Egg} alt="Egg" className=" w-full h-full" />
           <Brand />
+          <img src={Egg} alt="Egg" className=" w-full h-full" />
           <img src={Cup} alt="Salmon colored cup" className="w-full h-full" />
           <Audience />
           <div className="relative">
