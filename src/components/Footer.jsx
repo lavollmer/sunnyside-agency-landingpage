@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="text-darkfooter pt-10">
         <Clickables color="text-[#2B7262]" />
       </div>
-      <div className="flex flex-row pt-20 space-x-4">
+      <div className="flex flex-row pt-20 space-x-6">
         <img src={Facebook} alt="Facebook Icon" />
         <img src={Instagram} alt="Instagram Icon" />
         <img src={Twitter} alt="Twitter Icon" />

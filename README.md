@@ -67,6 +67,7 @@ My process:
 16. Footer component
 17. Stylizing mobile responsive piece of the application
 18. Import Google Fonts from design package and import into Tailwind CSS
+19. Updating all fonts within each component
 
 ### Built with
 
