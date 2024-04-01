@@ -5,7 +5,7 @@ const LearnMore = () => {
   return (
     <div>
       <Link to="/learnmore">
-        <p className="font-bold text-black text-sm" >LEARN MORE</p>
+        <p className="font-bold text-sm" >LEARN MORE</p>
       </Link>
     </div>
   );
