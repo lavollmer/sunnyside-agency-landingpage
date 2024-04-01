@@ -8,6 +8,10 @@ import Cup from "../src/assets/images/desktop/image-stand-out.jpg"; // Import th
 import Cherry from "../src/assets/images/desktop/image-graphic-design.jpg"; // Import the image-graphic-design.jpg file
 import Oranges from "../src/assets/images/desktop/image-photography.jpg"; // Import the image-photography.jpg file
 import Testimonials from "./components/Testimonials"; // Import the Testimonials component
+import Cone from "../src/assets/images/desktop/image-gallery-cone.jpg"; // Import the image-gallery-cone.jpg file
+import Milk from "../src/assets/images/desktop/image-gallery-milkbottles.jpg"; // Import the image-gallery-milkbottles.jpg file
+import Sugar from "../src/assets/images/desktop/image-gallery-sugarcubes.jpg"; // Import the image-gallery-sugar-cubes.jpg file
+import Orange from "../src/assets/images/desktop/image-gallery-orange.jpg"; // Import the image-gallery-orange.jpg file
 
 function App() {
   return (
@@ -48,6 +52,13 @@ function App() {
         </div>
         <div>
           <Testimonials />
+        </div>
+
+        <div className="grid md:grid-cols-4 grid-cols-1">
+          <img src={Milk} alt="Three Milk Bottles" />
+          <img src={Orange} alt="Orange in bowl" />
+          <img src={Cone} alt="Ice Cream Cone" />
+          <img src={Sugar} alt="Sugar Cubes" />
         </div>
       </div>
     </>
