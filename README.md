@@ -91,6 +91,8 @@ My process:
 6. Custome inline styles - inline styles are used to apply CSS directly to component or element. Written as Javacript objects with properties. May need specific style that isn't covered by framework.
 7. Manipulating a SVG file to change color with CSS
 8. Text Color Props for Clickables component -  Pass a color prop to the component and ust that to set the text color. Color is a prop that defaults to text-white if not provided. The className for each component Link is set to color which means it will use the color prop value as it's text color.
+9. Underline of the learn more - challenging
+10. Importing Google fonts in tailwind CSS
 
 ```html
 <h1>Some HTML code I'm proud of</h1>

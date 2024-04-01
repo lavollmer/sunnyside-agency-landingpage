@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Audience = () => {
   return (
     <div className="bg-[#FFFBF8] p-10 md:p-40 flex flex-col  space-y-16">
-      <h1 className="flex flex-row items-center font-fraunces font-700 text-md text-[#202C35]">
+      <h1 className="flex flex-row items-center font-fraunces font-bold font-700 text-md text-[#202C35]">
         Stand out to the right audience
       </h1>
       <p className="text-md front-barlow font-bold font-800 items-center text-[#B0AFB4]">
