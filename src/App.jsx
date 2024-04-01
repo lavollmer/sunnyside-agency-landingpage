@@ -18,22 +18,29 @@ function App() {
         <img src={Egg} alt="Egg" className="w-full h-full" />
         <img src={Cup} alt="Salmon colored cup" className="w-full h-full" />
         <Audience />
-        <div>
+        <div className="relative">
           <img src={Cherry} alt="Cherry image" className="w-full h-full" />
-          <h1>Graphic Design</h1>
-          <p>
-            Great design makes you memorable. We deliver artwork that
-            underscores your brand message and captures potential clients’
-            attention.
-          </p>
+          <div className="absolute inset-0 top-1/2 flex-col p-20 text-[#377165]">
+            <h1 className="flex flex-col items-center text-2xl font-bold">
+              Graphic Design
+            </h1>
+            <p className="font-bold pt-5 px-10">
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
         </div>
-        <div>
+        <div className="relative">
           <img src={Oranges} alt="Orange image" className="w-full h-full" />
-          <h1>Photography</h1>
-          <p>
-            Increase your credibility by getting the most stunning, high-quality
-            photos that improve your business image.
-          </p>
+          <div className="absolute inset-0 top-1/2 flex-col p-20 text-[#377165]">
+            <h1 className="flex flex-col items-center text-2xl font-bold">
+              Photography
+            </h1>
+            <p className="font-bold pt-5 px-10">
+            Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+            </p>
+          </div>
         </div>
       </div>
     </>
