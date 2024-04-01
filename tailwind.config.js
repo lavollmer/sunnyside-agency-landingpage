@@ -11,6 +11,15 @@ module.exports = {
         '700': '700',
         '900': '900',
       },
+      spacing: {
+        '1/10': '10%'
+      },
+      colors: {
+        'underline-color': '#F8F1C8',
+      },
+      zIndex: {
+        '-10': '-10',
+      },
     },
   },
   variants: {
