@@ -7,6 +7,7 @@ import Egg from "../src/assets/images/desktop/image-transform.jpg"; // Import th
 import Cup from "../src/assets/images/desktop/image-stand-out.jpg"; // Import the image-stand-out.jpg file
 import Cherry from "../src/assets/images/desktop/image-graphic-design.jpg"; // Import the image-graphic-design.jpg file
 import Oranges from "../src/assets/images/desktop/image-photography.jpg"; // Import the image-photography.jpg file
+import Testimonials from "./components/Testimonials"; // Import the Testimonials component
 
 function App() {
   return (
@@ -41,6 +42,9 @@ function App() {
             Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
             </p>
           </div>
+        </div>
+        <div>
+          <Testimonials />
         </div>
       </div>
     </>
