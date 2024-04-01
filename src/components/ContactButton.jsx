@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const ContactButton = () => {
+const ContactButton = ({ color = "black" }) => {
   return (
     <div>
-        <button className='bg-white rounded-full '>
-            <p className='text-black font-fraunces font-900 text-sm'>CONTACT</p>
-        </button>
+      <button className={`${color} rounded-full`}>
+        <p className=" text-black font-fraunces font-900 text-sm">CONTACT</p>
+      </button>
     </div>
-  )
-}
+  );
+};
 
-export default ContactButton
+export default ContactButton;
