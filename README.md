@@ -65,6 +65,7 @@ My process:
 15. Started working on client testimonials - had to remove div from grid container to have it positioned correctly - worked one section the way I wanted it and then replicated it to all three. Added inline custom styling to the words Client Testimonials.
 15. Added four images to bottom of page using grid container
 16. Footer component
+17. Stylizing mobile responsive piece of the application
 
 ### Built with
 
