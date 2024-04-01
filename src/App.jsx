@@ -31,7 +31,7 @@ function App() {
               <h1 className="flex flex-col items-center text-sm md:text-3xl font-fraunces font-bold font-700 ">
                 Graphic Design
               </h1>
-              <p className="text-sm font-bold pt-5 text-center px-10">
+              <p className="text-xs font-bold pt-5 text-center px-10">
                 Great design makes you memorable. We deliver artwork that
                 underscores your brand message and captures potential clients’
                 attention.
@@ -41,10 +41,10 @@ function App() {
           <div className="relative">
             <img src={Oranges} alt="Orange image" className="w-full h-full" />
             <div className="absolute inset-0 top-1/2 flex-col p-4 md:p-20 text-darkblue">
-              <h1 className="flex flex-col items-center text-md md:text-3xl font-fraunces font-bold font-700 ">
+              <h1 className="flex flex-col items-center text-sm md:text-3xl font-fraunces font-bold font-700 ">
                 Photography
               </h1>
-              <p className="font-bold text-sm text-center pt-5 px-10">
+              <p className="font-bold text-xs text-center pt-5 px-10">
                 Increase your credibility by getting the most stunning,
                 high-quality photos that improve your business image.
               </p>

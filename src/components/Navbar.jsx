@@ -24,10 +24,10 @@ const Navbar = () => {
         <img src={Hamburger} alt="Hamburger icon for mobile menu" />
       </button>
       {isMenuOpen && (
-        <div className="fixed top-0 right-0 h-full w-1/2 p-5 bg-white ">
-          <Link to="/about">About</Link>
-          <Link to="/services">Services</Link>
-          <Link to="/projects">Projects</Link>
+        <div className="fixed top-0 right-0 h-full w-full md:w-1/2 p-10 bg-white z-50 ">
+          <Link to="/about" className="font-barlow font-600 text-md">About</Link>
+          <Link to="/services" className="font-barlow font-600 text-md">Services</Link>
+          <Link to="/projects" className="font-barlow font-600 text-md">Projects</Link>
         </div>
       )}
     </div>
