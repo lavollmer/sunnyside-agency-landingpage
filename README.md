@@ -63,6 +63,8 @@ My process:
 13. Delete LearnMore component - I realized it was easier to style and import everything into things separately
 14. Added 2 more images to App.jsx for cherry and orange with writing on top of it
 15. Started working on client testimonials - had to remove div from grid container to have it positioned correctly - worked one section the way I wanted it and then replicated it to all three. Added inline custom styling to the words Client Testimonials.
+15. Added four images to bottom of page using grid container
+16. Footer component
 
 ### Built with
 
@@ -85,6 +87,7 @@ My process:
 4. Understanding react-router-dom and how it works within all the files
 5. React-router-dom Link component doesn't support the className prop directly - need to wrap it with div or span
 6. Custome inline styles - inline styles are used to apply CSS directly to component or element. Written as Javacript objects with properties. May need specific style that isn't covered by framework.
+7. Manipulating a SVG file to change color with CSS
 
 ```html
 <h1>Some HTML code I'm proud of</h1>

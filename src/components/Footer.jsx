@@ -1,16 +1,16 @@
 import React from "react";
-import SunnyIcon from "./SunnyIcon"; // Import the SunnyIcon component
 import Clickables from "./Clickables"; // Import the Clickables component
 import Facebook from "../assets/icons/icon-facebook.svg";
 import Instagram from "../assets/icons/icon-instagram.svg";
 import Twitter from "../assets/icons/icon-twitter.svg";
 import Pinterest from "../assets/icons/icon-pinterest.svg";
+import Logo from "../assets/icons/logo.svg";
 
 const Footer = () => {
   return (
     <div className="flex flex-col items-center p-5 bg-[#90D4C5]">
       <div>
-        <img src={SunnyIcon} alt="Sunny Icon" />
+        <img src={Logo} className="text-[#2B7262]"/>
       </div>
       <div className="text-[#2B7262]">
         <Clickables />
