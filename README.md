@@ -81,6 +81,7 @@ My process:
 2. Work on the Icon Sunnyside Logo component. The icon file I received wasn't working. I used snipping clipper to take an image of the design layout. Took the logo and ran it through a website to remove the background of the image. I got a usable image for the website. Realized the logo icon did work - just wasn't showing up when using.
 3. Declare the useState in React. I need to declare the state variable and the function to update it inside an array. I forgot to add const to the beginning of my useState.
 4. Understanding react-router-dom and how it works within all the files
+5. React-router-dom Link component doesn't support the className prop directly - need to wrap it with div or span
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
