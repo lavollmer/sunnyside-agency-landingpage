@@ -8,14 +8,14 @@ import Logo from "../assets/icons/logo.svg";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center p-5 bg-[#90D4C5]">
+    <div className="flex flex-col items-center p-10 bg-[#90D4C5]">
       <div>
         <img src={Logo} className="text-[#2B7262]"/>
       </div>
-      <div className="text-[#2B7262]">
-        <Clickables />
+      <div className="text-[#2B7262] pt-10">
+        <Clickables color="text-[#2B7262]" />
       </div>
-      <div className="flex flex-row p-2 space-x-4">
+      <div className="flex flex-row pt-20 space-x-4">
         <img src={Facebook} alt="Facebook Icon" />
         <img src={Instagram} alt="Instagram Icon" />
         <img src={Twitter} alt="Twitter Icon" />
