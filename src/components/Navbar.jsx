@@ -11,7 +11,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="bg-[#3DBEFF] p-5 flex justify-between items-center">
+    <div className="relative bg-[#3DBEFF] p-5 flex justify-between items-center">
       {/* Sunnyside Icon component imported for Navigation bar */}
       <div>
         <SunnyIcon size={80} />
@@ -20,9 +20,16 @@ const Navbar = () => {
         <Clickables />
         <ContactButton />
       </div>
-      <button className="md:hidden">
+      <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
         <img src={Hamburger} alt="Hamburger icon for mobile menu" />
       </button>
+      {isMenuOpen && (
+        <div className="fixed top-0 right-0 h-full w-1/2 p-5 bg-white ">
+          <Link to="/about">About</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/projects">Projects</Link>
+        </div>
+      )}
     </div>
   );
 };
