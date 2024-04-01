@@ -9,7 +9,7 @@ const SplashPage = () => {
             <img src={Orange} alt="Orange Header photo" className="w-full" />
             {/* position to the center of the div with the orange image */}
             <div className="absolute top-1/3 left-1/2 md:top-1/3 md:left-1/2 md:transform -translate-x-1/2 -translate-y-1/2 text-center">
-                <h1 className="text-white font-fraunces font-bold font-900 text-3xl md:text-xl tracking-wide md:text-7xl mb-5 md:mb-40">WE ARE CREATIVES</h1>
+                <h1 className="text-white font-fraunces font-bold font-900 text-3xl md:text-8xl tracking-wide md:text-7xl mb-5 md:mb-40">WE ARE CREATIVES</h1>
                 <img src={Arrow} alt="Arrow down icon" className="mx-auto w-4 h-16 md:w-10 md:h-40 md:mt-20" />
             </div>
         </div>
