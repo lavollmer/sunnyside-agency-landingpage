@@ -58,6 +58,9 @@ My process:
 8. Work on the Icon Sunnyside Logo component. The icon file I received wasn't working. I used snipping clipper to take an image of the design layout. Took the logo and ran it through a website to remove the background of the image. I got a usable image for the website. Realized the logo icon did work - just wasn't showing up when using.
 9. Work on navigation bar. Start by working on useState hook for the mobile menu. I had to add react-router-dom to my main.jsx page to allow all the child components of App to have access to the routing context.
 10. Work on the splash page - understand the spacing of the words and arrow image to have it land on the orange image
+11. Work on 2 content sections - brand and audience - use coolors to find right color
+12. Create grid container for content and 2 images on app.jsx to fill whole page - import everything
+13. Delete LearnMore component - I realized it was easier to style and import everything into things separately
 
 ### Built with
 

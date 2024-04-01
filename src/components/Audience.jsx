@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Audience = () => {
   return (
     <div>
-      <div className="bg-[#FFFBF8]">
+      <div className="bg-[#FFFBF8] p-40 flex flex-col space-y-16">
         <h1 className="text-[#202C35]">Stand out to the right audience</h1>
         <p>
         Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
