@@ -55,7 +55,7 @@ function App() {
           <Testimonials />
         </div>
 
-        <div className="grid md:grid-cols-4 grid-cols-1">
+        <div className="grid md:grid-cols-4 grid-cols-2">
           <img src={Milk} alt="Three Milk Bottles" />
           <img src={Orange} alt="Orange in bowl" />
           <img src={Cone} alt="Ice Cream Cone" />
