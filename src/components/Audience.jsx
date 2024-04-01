@@ -15,7 +15,7 @@ const Audience = () => {
         <p className="font-fraunces font-bold font-700 text-xl relative pb-1 z-10">
           LEARN MORE
         </p>
-        <span className="absolute h-2 w-1/3 bottom-2 left-0 bg-underline2 z-0"></span>
+        <span className="absolute h-2 w-1/3 bottom-2 left-0 bg-underline-color2 z-0"></span>
       </Link>
     </div>
   );
