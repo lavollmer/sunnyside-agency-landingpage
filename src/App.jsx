@@ -27,7 +27,7 @@ function App() {
           <Audience />
           <div className="relative">
             <img src={Cherry} alt="Cherry image" className="w-full h-full" />
-            <div className="absolute inset-0 top-1/2 flex-col p-4 md:p-20 text-[#377165]">
+            <div className="absolute inset-0 top-1/2 flex-col p-4 md:p-20 text-darkcyan">
               <h1 className="flex flex-col items-center text-sm md:text-3xl font-fraunces font-bold font-700 ">
                 Graphic Design
               </h1>
@@ -40,7 +40,7 @@ function App() {
           </div>
           <div className="relative">
             <img src={Oranges} alt="Orange image" className="w-full h-full" />
-            <div className="absolute inset-0 top-1/2 flex-col p-4 md:p-20 text-custom-color">
+            <div className="absolute inset-0 top-1/2 flex-col p-4 md:p-20 text-darkblue">
               <h1 className="flex flex-col items-center text-md md:text-3xl font-fraunces font-bold font-700 ">
                 Photography
               </h1>

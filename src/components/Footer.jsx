@@ -12,7 +12,7 @@ const Footer = () => {
       <div>
         <img src={Logo} className="text-[#2B7262]"/>
       </div>
-      <div className="text-[#2B7262] pt-10">
+      <div className="text-darkfooter pt-10">
         <Clickables color="text-[#2B7262]" />
       </div>
       <div className="flex flex-row pt-20 space-x-4">
