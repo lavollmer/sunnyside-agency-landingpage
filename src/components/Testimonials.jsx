@@ -8,13 +8,13 @@ const Testimonials = () => {
     <div className="flex flex-col p-2 md:p-10">
       <div className="flex items-center justify-center">
         <h1
-          style={{ fontSize: "26px", letterSpacing: "4px" }}
-          className="text-[#C3C1C2] font-fraunces font-bold font-700 pt-10 pb-10 md:pt-20 md:pb-10"
+          // style={{ fontSize: "26px", letterSpacing: "4px" }}
+          className="text-[#C3C1C2] font-fraunces font-bold font-700 pt-10 pb-10 md:pt-20 md:pb-10 text-lg md:text-xl tracking-widest"
         >
           CLIENT TESTIMONIALS
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3  md:p-20">
+      <div className="grid grid-cols-1 md:grid-cols-3  p-10 md:p-20">
         <div className="flex flex-col items-center p-5 space-y-6">
           <img
             src={Emily}
