@@ -11,11 +11,11 @@ const Audience = () => {
         photographers, videographers, and copywriters, we’ll build and extend 
         your brand in digital places.
       </p>
-      <Link to="/learnmore" className="flex flex-row items-center text-[#333A3B] relative">
+      <Link to="/learnmore" className="flex flex-col md:flex-row justify-center items-center md:items-left text-[#333A3B] relative">
         <p className=" text-center font-fraunces font-bold font-700 text-xl relative pb-1 z-10">
           LEARN MORE
         </p>
-        <span className="absolute  h-2 w-1/3 bottom-2 left-0 bg-underline-color2 z-0"></span>
+        <span className="absolute h-2 w-1/3 bottom-2 left-0 bg-underline-color2 z-0 left-1/2 transform -translate-x-1/2"></span>
       </Link>
     </div>
   );

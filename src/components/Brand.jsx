@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Brand = () => {
   return (
-    <div className="bg-[#FFFBF8] p-10 md:p-40 flex flex-col space-y-16">
+    <div className="bg-[#FFFBF8] p-10 flex flex-col space-y-16">
       <h1 className="flex flex-row items-center font-fraunces font-700 md:text-md text-center text-[#202C35]">
         Transform your brand
       </h1>

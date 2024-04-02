@@ -19,7 +19,7 @@ function App() {
     <>
       <Navbar />
       <SplashPage />
-      <div>
+      <div >
         <div className="grid md:grid-cols-2 grid-cols-1">
           <Brand />
           <img src={Egg} alt="Egg" className=" w-full h-full" />
