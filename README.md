@@ -50,7 +50,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 Things I need to work on:
 1. Styling Navbar
 2. Showing different images on mobile
-3. center LearnMore
+3. center LearnMore in mobile
 
 My process:
 1.  Open the project and look through all the project images, fonts, and README. Determine best course of action.

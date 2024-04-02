@@ -17,9 +17,11 @@ const Navbar = () => {
       <div>
         <SunnyIcon size={80} />
       </div>
-      <div className="hidden md:flex">
-        <Clickables />
-        <ContactButton />
+      <div className="hidden md:flex md:flex-row md:justify-end w-full">
+        <div className="flex">
+          <Clickables />
+          <ContactButton />
+        </div>
       </div>
       <div className="p-5">
         <button
