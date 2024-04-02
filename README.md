@@ -16,7 +16,6 @@ This project involved creating a replica of a agency landing page, adhering stri
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,46 +27,53 @@ The website was designed to be responsive, providing an optimal layout for any d
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Website Screenshot:
+![Laura's Landing Page](./src/assets/images-readme/sunnysidelandingpage-netlify.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+Brand Section Website Screenshot:
+![Laura's Transform Brand](./src/assets/images-readme/transformbrand-netlify.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+Client Testimonials Website Screenshot:
+![Laura's Client Testimonials](./src/assets/images-readme/testimonials-netlify.png)
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+Footer Website Screenshot:
+![Laura's Footer](./src/assets/images-readme/footer-netlify.png)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+Project Design Requested:
+![Landing Page](./src/assets/images-readme/desktop-design.jpg)
 
 ### Links
 
-- Github Repo URL: [Sunnyside Landing Page Github Repo URL](https://github.com/lavollmer/sunnyside-agency-landingpage)
+- Github Repo URL: [Sunnyside Landing Page Github Repo](https://github.com/lavollmer/sunnyside-agency-landingpage)
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Sunnyside Landing Page](https://sunnyside-landing-page-lauradev.netlify.app/)
 
 ## My process
 
-My process:
-1.  Open the project and look through all the project images, fonts, and README. Determine best course of action.
-2. Create Github Repo and connect to localhost/terminal.
-3. Install ReactJS, TailwindCSS, Vite.
-4. Run on localhost to make sure it is functioning it. Clean up old code from React to get clean slate for building. 
-5. Download all the images in the assets folder - separate icons, images for desktop and images for mobile in folders in assets.
-6. Plan build - look at designs given. Plan out reusable pieces of content.
-7. Wrote out all my components and named them. Created my App.js and imported all the components to make sure the page would run smoothly.
-8. Work on the Icon Sunnyside Logo component. The icon file I received wasn't working. I used snipping clipper to take an image of the design layout. Took the logo and ran it through a website to remove the background of the image. I got a usable image for the website. Realized the logo icon did work - just wasn't showing up when using.
-9. Work on navigation bar. Start by working on useState hook for the mobile menu. I had to add react-router-dom to my main.jsx page to allow all the child components of App to have access to the routing context.
-10. Work on the splash page - understand the spacing of the words and arrow image to have it land on the orange image
-11. Work on 2 content sections - brand and audience - use coolors to find right color
-12. Create grid container for content and 2 images on app.jsx to fill whole page - import everything
-13. Delete LearnMore component - I realized it was easier to style and import everything into things separately
-14. Added 2 more images to App.jsx for cherry and orange with writing on top of it
-15. Started working on client testimonials - had to remove div from grid container to have it positioned correctly - worked one section the way I wanted it and then replicated it to all three. Added inline custom styling to the words Client Testimonials.
-15. Added four images to bottom of page using grid container
-16. Footer component
-17. Stylizing mobile responsive piece of the application
-18. Import Google Fonts from design package and import into Tailwind CSS
-19. Updating all fonts within each component
-20. Finish mobile responsiveness
+My process for building this website involved planning, building and refractoring code. This project took me about 2-4 business days to complete start to finish.
+
+Project planning:
+1. I began by opening the project to look through all the project images, fonts, and README. Based on this I decided what was the best way to approach this project to be the most efficient.
+2. I created Github Repo and connected to my localhost/terminal. I did my first commit to make sure that everything was connected.
+3. Installed ReactJS, TailwindCSS, and Vite.
+4. Ran on localhost to determine everything was functioning correctly. Clean up code given from React to have a clean slate for building. 
+5. Downloaded all the images in the assets folder - separated icons, images for desktop and images for mobile in folders in assets.
+6. Planned build - look at designs given. Planned out reusable pieces of content.
+7. Wrote out all my components and named them logically. Created my App.js and imported all the components to make sure the page would run smoothly.
+8. Worked on the Icon Sunnyside Logo component to have the icon available for reuse in header and footer.
+9. Worked on navigation bar. Started by working on useState hook for the mobile menu. I had to add react-router-dom to my main.jsx page to allow all the child components of App to have access to the routing context.
+10. Worked on the splash page (main landing page) - Learned the spacing of the words and arrow image to have it land on the orange image as the design was shown.
+11. Worked on 2 content sections - brand and audience components. 
+12. Created grid container for content and 2 images on App.jsx to fill whole page.
+13. Deleted LearnMore component - I realized it was easier to style and import everything into each component separately than have another component.
+14. Added 2 more images to App.jsx for cherry and orange with the text overlayed based on design given.
+15. Started working on client testimonials section. Added inline custom styling to the words Client Testimonials.
+15. Added four images to bottom of page using grid container which quick to do.
+16. worked on Footer component which included reusable Clickables component, the icon and the social media links.
+17. After finishing the desktop, I started working on stylizing mobile responsive piece of the application. This took some rearranging and adding specifications for sizing for medium size screens and above.
+18. I imported Google Fonts from design package given and imported into Tailwind CSS. After this, I updated all fonts within each component to match the design.
+20. The final day, I worked on cleaning up mobile responsiveness and small design tweaks such as the Learn More link on mobile being centered.
+21. Wrote my README and deployed to Netlify.
 
 ### Built with
 
