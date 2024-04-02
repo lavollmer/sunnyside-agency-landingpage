@@ -31,7 +31,7 @@ const Navbar = () => {
         </button>
       </div>
       {isMenuOpen && (
-        <div className="flex flex-col items-center justify-center text-center fixed top-10 right-20 h-1/4 w-1/2 p-20 bg-white z-50 ">
+        <div className="flex flex-col items-center justify-center bg-white text-center fixed top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50">
           <Link
             to="/about"
             className="font-barlow font-600 text-md text-grayishblue mb-5"
