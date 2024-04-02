@@ -1,6 +1,6 @@
-# Frontend Mentor - Sunnyside agency landing page solution
+# Sunnyside Agency Landing Page
 
-Frontend Mentor challenges help you improve your coding skills by building realistic projects. This project was to create a landing page for sunnyside agency. It was fun to work through the project.
+This project involved creating a replica of a agency landing page, adhering strictly to a provided design. The challenge was to match the design 1:1 without any additional guidance on the code or frameworks to be used. The primary technologies leveraged for this project were ReactJS, JavaScript, TailwindCSS, and Vite.
 
 ## Table of contents
 
