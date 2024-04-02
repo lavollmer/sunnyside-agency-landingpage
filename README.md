@@ -44,7 +44,7 @@ Project Design Requested:
 ### Links
 
 - Github Repo URL: [Sunnyside Landing Page Github Repo](https://github.com/lavollmer/sunnyside-agency-landingpage)
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-page-with-tailwindcss-javascript-vite-and-reactjs-W7vkV-u4l1)
 - Live Site URL: [Sunnyside Landing Page](https://sunnyside-landing-page-lauradev.netlify.app/)
 
 ## My process
