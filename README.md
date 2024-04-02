@@ -48,7 +48,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ## My process
 
 Things I need to work on:
-1. Styling Navbar
 2. Showing different images on mobile
 3. center LearnMore in mobile
 
