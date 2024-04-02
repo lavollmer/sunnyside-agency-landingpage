@@ -33,7 +33,6 @@ const Navbar = () => {
       {isMenuOpen && (
         <>
           <div className="flex flex-col items-center justify-center bg-white text-center fixed top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-1/3 w-3/4 z-50">
-            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-full w-0 h-0 border-8 border-transparent border-b-8 border-white"></div>
             <Link
               to="/about"
               className="font-barlow font-600 text-md text-grayishblue mb-5"
