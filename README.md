@@ -20,12 +20,11 @@ This project involved creating a replica of a agency landing page, adhering stri
 
 ## Overview
 
+The project's scope involved developing a agency landing page using ReactJS, Tailwind CSS, JavaScript, and Vite. I was provided with a collection of assets, including design examples, images, logos, and fonts. The design assets were primarily bright colored images, fonts, and fun images. The fonts used were Fraunces and Barlow. The website featured a logo in the top left corner, a desktop and mobile navigation bar, several distinct sections, a 'LEARN MORE' link button, a footer with social media and several other functional features. The project required a precise understanding of color combinations, styling, and grid container layouts.
+
 ### The challenge
 
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+The website was designed to be responsive, providing an optimal layout for any device's screen size. 
 
 ### Screenshot
 
@@ -41,15 +40,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Github Repo URL: [Github Repo URL](https://github.com/lavollmer/sunnyside-agency-landingpage)
+- Github Repo URL: [Sunnyside Landing Page Github Repo URL](https://github.com/lavollmer/sunnyside-agency-landingpage)
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Sunnyside Landing Page](https://sunnyside-landing-page-lauradev.netlify.app/)
 
 ## My process
-
-Things I need to work on:
-2. Showing different images on mobile
-3. center LearnMore in mobile
 
 My process:
 1.  Open the project and look through all the project images, fonts, and README. Determine best course of action.
@@ -72,6 +67,7 @@ My process:
 17. Stylizing mobile responsive piece of the application
 18. Import Google Fonts from design package and import into Tailwind CSS
 19. Updating all fonts within each component
+20. Finish mobile responsiveness
 
 ### Built with
 
