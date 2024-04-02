@@ -12,11 +12,11 @@ const Brand = () => {
         grow fast. Engage your clients through compelling visuals that do most
         of the marketing for you.
       </p>
-      <Link to="/learnmore" className="flex flex-row md:items-left text-[#333A3B] relative">
+      <Link to="/learnmore" className="flex flex-col md:flex-row justify-center items-center md:items-left text-[#333A3B] relative">
         <p className="items-center font-fraunces font-bold font-700 text-xl relative pb-1 z-10">
           LEARN MORE
         </p>
-        <span className="absolute h-2 w-1/3 bottom-2 left-0 bg-underline-color z-0"></span>
+        <span className="absolute h-2 w-1/3 bottom-2 left-0 bg-underline-color z-0 left-1/2 transform -translate-x-1/2"></span>
       </Link>
     </div>
   );
