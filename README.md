@@ -12,7 +12,6 @@ This project involved creating a replica of a agency landing page, adhering stri
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -159,30 +158,15 @@ App.css
 11. **Custom Colors for Fonts in Tailwind CSS:** I learned how to set custom colors for fonts in Tailwind CSS.
 
 
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Remove bg](https://www.remove.bg/) - This helped me to remove the background off a screenshot from the sunnyside icon. The file I got didn't have a sunny icon appear. I had to create my own with the design layout.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+Throughout this project, I learned a lot about Tailwind CSS, styling and how all the applications work together. I will continue learning through freeCodeCamp, Frontend Mentor challenges and self-application.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Laura Vollmer](https://lauradeveloper.com/)
+- Frontend Mentor - [@lavollmer](https://www.frontendmentor.io/profile/lavollmer)
 
 ## Acknowledgments
 
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
