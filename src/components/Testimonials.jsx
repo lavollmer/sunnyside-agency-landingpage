@@ -8,7 +8,6 @@ const Testimonials = () => {
     <div className="flex flex-col p-2 md:p-10">
       <div className="flex items-center justify-center">
         <h1
-          // style={{ fontSize: "26px", letterSpacing: "4px" }}
           className="text-[#C3C1C2] font-fraunces font-bold font-700 pt-10 pb-10 md:pt-20 md:pb-10 text-lg md:text-xl tracking-widest"
         >
           CLIENT TESTIMONIALS

@@ -78,49 +78,87 @@ Project planning:
 ### Built with
 
 - Semantic HTML5 markup
+- JavaScript
+- Tailwind CSS
+- ReactJS
+- Vite
+- Google Fonts
+- Coolors
 - CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-1. Setting up Tailwind CSS - the config file has updated terminology - purge is now content. Also app.css should have the tailwind CSS utilities.
-2. Work on the Icon Sunnyside Logo component. The icon file I received wasn't working. I used snipping clipper to take an image of the design layout. Took the logo and ran it through a website to remove the background of the image. I got a usable image for the website. Realized the logo icon did work - just wasn't showing up when using.
-3. Declare the useState in React. I need to declare the state variable and the function to update it inside an array. I forgot to add const to the beginning of my useState.
-4. Understanding react-router-dom and how it works within all the files
-5. React-router-dom Link component doesn't support the className prop directly - need to wrap it with div or span
-6. Custome inline styles - inline styles are used to apply CSS directly to component or element. Written as Javacript objects with properties. May need specific style that isn't covered by framework.
-7. Manipulating a SVG file to change color with CSS
-8. Text Color Props for Clickables component -  Pass a color prop to the component and ust that to set the text color. Color is a prop that defaults to text-white if not provided. The className for each component Link is set to color which means it will use the color prop value as it's text color.
-9. Underline of the learn more - challenging
-10. Importing Google fonts in tailwind CSS
-11. Custom colors for fonts in tailwind CSS
+Throughout the development of this project, I gained a deeper understanding of several important concepts and tools. Here are the key learnings:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+1. **Tailwind CSS Setup:** The config file has updated terminology - `purge` is now `content`. Also, `app.css` should have the Tailwind CSS utilities. At the beginning of the project, I spent some time reconfiguring the section in order to work.
+2. **React useState Hook:** I learned the importance of correctly declaring the state variable and the function to update it inside an array using `useState`. I gained a deeper understanding of this concept throughout the navigation bar coding.
+4. **React Router Dom:** Gained a deeper understanding of `react-router-dom` and how it works within all the files. It is a library for routing in React applications. It allows to create multiple routes in the application and render different components. I am able to create SPAs while not navigating through multiple pages and refreshing.
+5. **React Router Dom Link Component:** Learned that the `Link` component doesn't support the `className` prop directly - need to wrap it with `div` or `span`.
+6. **Custom Inline Styles:** I learned how to apply CSS directly to a component or element using inline styles, which are written as JavaScript objects with properties which is different than CSS with strings.
+7. **Manipulating SVG Files:** I learned how to manipulate an SVG file to change its color with CSS.
+8. **Text Color Props for Clickables:** I learned how to pass a color prop to the component and use that to set the text color.
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
+``` js
+const Clickables = ({ color = "text-white" }) => {
+  return (
+    // add 1 rem of horizontal space between its child elements and margin of 10 pixels on the left and right sides
+    <div className="flex flex-row items-center space-x-10 mx-10 font-barlow font-600">
+      <Link to="/about" className={`${color} text-md`}>
+        About
+      </Link>
+      <Link to="/services" className={`${color} text-md`}>
+        Services
+      </Link>
+      <Link to="/projects" className={`${color} text-md`}>
+        Projects
+      </Link>
+    </div>
+  );
 };
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+9. **Underlining Text:** I faced challenges with underlining the "learn more" text, but eventually succeeded. I had to create a span element with proper styling that would sit below the button or Link.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+```js
+      <Link to="/learnmore" className="flex flex-col md:flex-row justify-center items-center md:text-left text-[#333A3B] relative">
+        <p className="items-center font-fraunces font-bold font-700 text-xl relative pb-1 z-10">
+          LEARN MORE
+        </p>
+        <span className="absolute h-2 w-1/3 bottom-2 left-0 bg-underline-color z-0 left-1/2 transform -translate-x-1/2"></span>
+      </Link>
+    </div>
+```
+
+10. **Importing Google Fonts in Tailwind CSS:** I learned how to import specific Google fonts and font-weights in Tailwind CSS.
+
+Tailwind Config File
+```js
+module.exports = {
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        fraunces: ["Fraunces", "sans-serif"],
+        barlow: ["Barlow", "sans-serif"],
+      },
+      fontWeight: {
+        600: "600",
+        700: "700",
+        900: "900",
+      },
+
+```
+
+App.css
+```css
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Barlow:wght@700;900&display=swap');
+```
+
+11. **Custom Colors for Fonts in Tailwind CSS:** I learned how to set custom colors for fonts in Tailwind CSS.
+
+
 
 ### Continued development
 
