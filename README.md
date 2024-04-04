@@ -73,6 +73,7 @@ Project planning:
 18. I imported Google Fonts from design package given and imported into Tailwind CSS. After this, I updated all fonts within each component to match the design.
 20. The final day, I worked on cleaning up mobile responsiveness and small design tweaks such as the Learn More link on mobile being centered.
 21. Wrote my README and deployed to Netlify.
+22. Reread my README and project to review with fresh eyes. Everything looks good!
 
 ### Built with
 
